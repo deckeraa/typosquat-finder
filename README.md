@@ -10,6 +10,10 @@ malicious version of the library.
 Typosquats can be detected. Attempts at typosquatting have to be publicly accessbile (and thus detectable) since the
 malicious libraries must be registered at a popular package respository.
 
+The main motivation for this investigation was my reading of this article about PyPI typosquatting:
+https://www.iqt.org/bewear-python-typosquatting-is-about-more-than-typos/
+and the related HN discussion: https://news.ycombinator.com/item?id=24649729 .
+
 ## Methodology
 The Clojars repository is a popular place to host Clojure libraries.
 As of early October 2020, there are around 27,020 libraries hosted.
